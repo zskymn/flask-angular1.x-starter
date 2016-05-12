@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "cssnano": "3.5.2",
+    "del": "2.2.0",
+    "gulp": "3.9.1",
+    "gulp-angular-templatecache": "1.8.0",
+    "gulp-concat": "2.6.0",
+    "gulp-file-include": "0.13.7",
+    "gulp-if": "2.0.0",
+    "gulp-include": "2.1.0",
+    "gulp-ng-annotate": "2.0.0",
+    "gulp-postcss": "6.1.1",
+    "gulp-rev": "7.0.0",
+    "gulp-size": "2.1.0",
+    "gulp-sourcemaps": "2.0.0-alpha",
+    "gulp-uglify": "1.5.3",
+    "gulp-usemin": "0.3.22",
+    "postcss-assets": "4.1.0",
+    "postcss-cssnext": "2.5.2",
+    "postcss-functions": "2.1.0",
+    "postcss-import": "8.1.0",
+    "postcss-short": "1.4.0",
+    "precss": "1.4.0",
+    "run-sequence": "1.1.5",
+    "yargs": "4.6.0"
+  },
+  "devDependencies": {
+    "gulp-notify": "2.2.0",
+    "gulp-plumber": "1.1.0",
+    "gulp-watch": "4.3.5",
+    "jasmine": "2.4.1",
+    "karma": "0.13.22",
+    "karma-coverage": "1.0.0",
+    "karma-jasmine": "1.0.2",
+    "karma-phantomjs-launcher": "1.0.0",
+    "phantomjs-prebuilt": "2.1.7"
+  }
+}

@@ -1,0 +1,9 @@
+<div class="page-alert">
+  <div ng-repeat='alert in Alert.alertList' class="alert-{{alert.severity}} alert">
+    <button type="button" class="alert-close" ng-click="Alert.clear(alert)">
+      <i class="icon-cancel"></i>
+    </button>
+    <div class="alert-title">{{alert.title}}</div>
+    <div ng-bind-html='alert.text'></div>
+  </div>
+</div>

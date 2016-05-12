@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+static
+bower_components
+tpls.js
+tmp/
+coverage/
+dist/

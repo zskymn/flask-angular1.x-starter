@@ -1,0 +1,19 @@
+<div class="modal-header"
+  ng-bind-html="title">
+</div>
+
+<div class="modal-body overflow">
+  <p class="row-fluid text-center large newline-force"
+    ng-bind-html="text">
+  </p>
+  <br>
+</div>
+
+<div class="modal-footer">
+  <button type="button"
+    class="btn btn-warning btn-xl"
+    ng-click="$dismiss()">取消</button>
+  <button type="button"
+    class="btn btn-danger btn-xl"
+    ng-click="onConfirm();$dismiss();">确定</button>
+</div>

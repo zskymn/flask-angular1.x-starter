@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "angular": "1.5.5",
+    "angular-ui-router": "0.2.18",
+    "jquery": "2.2.3",
+    "lodash-modern": "4.6.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.5.5"
+  }
+}
